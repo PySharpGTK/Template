@@ -1,0 +1,28 @@
+{
+  "author": "Artur Zaytsev",
+  "name": "PySharpGTK Application + WFF",
+  "description": "A PySharpGTK Application that can fake WinForms presence for assignments.",
+  "identity": "HUSKI3.PySharpGTKApp.1.0",
+  "shortName": "pysharpgtk",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Template",
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "netcoreapp2.0"
+        },
+        {
+          "choice": "netcoreapp3.0"
+        }
+      ],
+      "defaultValue": "netcoreapp2.0"
+    }
+  }
+}
