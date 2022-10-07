@@ -20,11 +20,11 @@ namespace Template
                 }
             });
             // Now start Python GTK GUI
-            string fullPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
-            var path = Path.Combine(fullPath, "libs/pygui/gui");
-            var p = new ProcessStartInfo(path);
-            p.Arguments = $"--config={fullPath}/conf/config.json";
-            Process.Start(p);
+            // string fullPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
+            // var path = Path.Combine(fullPath, "libs/pygui/gui");
+            // var p = new ProcessStartInfo(path);
+            // p.Arguments = $"--config={fullPath}/conf/config.json";
+            // Process.Start(p);
         }
     }
 }
