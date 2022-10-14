@@ -32,4 +32,4 @@ PySharpGTK supports the following:
 
 # Getting Started
 
-WIP! Currently only Linux machines are supported, we are looking into MacOS support but it may take a week or so.
+WIP! Currently only Linux machines are supported, we are looking into MacOS support but it may take a week or so..
